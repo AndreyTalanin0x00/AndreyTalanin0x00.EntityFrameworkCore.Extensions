@@ -4,6 +4,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Packages", "1. Packages", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.EntityFrameworkCore.Connections", "AndreyTalanin0x00.EntityFrameworkCore.Connections\AndreyTalanin0x00.EntityFrameworkCore.Connections.csproj", "{6370AA95-4E1E-46E5-8DA0-BF0587066106}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Class Libraries", "2. Class Libraries", "{52FAF846-34F7-4779-A72E-74ECD261DABA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Test Libraries", "3. Test Libraries", "{0DBB2888-5EDF-443C-B614-3DDD4912817F}"
@@ -26,10 +28,17 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6370AA95-4E1E-46E5-8DA0-BF0587066106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6370AA95-4E1E-46E5-8DA0-BF0587066106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6370AA95-4E1E-46E5-8DA0-BF0587066106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6370AA95-4E1E-46E5-8DA0-BF0587066106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{6370AA95-4E1E-46E5-8DA0-BF0587066106} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{CE4F1B7E-A564-4A77-AB44-4AB213D65F79} = {0DBB2888-5EDF-443C-B614-3DDD4912817F}
 		{A066F6A5-60F7-4F32-AB3F-55C52F6ED889} = {0DBB2888-5EDF-443C-B614-3DDD4912817F}
 	EndGlobalSection
