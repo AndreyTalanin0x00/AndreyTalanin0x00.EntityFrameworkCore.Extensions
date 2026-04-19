@@ -14,7 +14,7 @@
     <Authors>Andrey Talanin</Authors>
     <Description>A set of extensions to implement the Microsoft.EntityFrameworkCore Object-Relational Mapping framework in a .NET application (transactions).</Description>
     <RepositoryUrl>https://github.com/AndreyTalanin0x00/AndreyTalanin0x00.EntityFrameworkCore.Extensions.git</RepositoryUrl>
-    <Version>0.1.0-dev0</Version>
+    <Version>0.1.0-rc1</Version>
   </PropertyGroup>
 
   <ItemGroup>
