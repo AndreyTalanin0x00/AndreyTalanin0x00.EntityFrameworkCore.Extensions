@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Packages", "1. Packages"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.EntityFrameworkCore.Connections", "AndreyTalanin0x00.EntityFrameworkCore.Connections\AndreyTalanin0x00.EntityFrameworkCore.Connections.csproj", "{6370AA95-4E1E-46E5-8DA0-BF0587066106}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.EntityFrameworkCore.Transactions", "AndreyTalanin0x00.EntityFrameworkCore.Transactions\AndreyTalanin0x00.EntityFrameworkCore.Transactions.csproj", "{37C63F8A-3823-4F33-A017-5249F8897FE8}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Class Libraries", "2. Class Libraries", "{52FAF846-34F7-4779-A72E-74ECD261DABA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Test Libraries", "3. Test Libraries", "{0DBB2888-5EDF-443C-B614-3DDD4912817F}"
@@ -13,6 +15,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1. Package Tests", "3.1. Package Tests", "{CE4F1B7E-A564-4A77-AB44-4AB213D65F79}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.EntityFrameworkCore.Connections.UnitTests", "Tests\AndreyTalanin0x00.EntityFrameworkCore.Connections.UnitTests\AndreyTalanin0x00.EntityFrameworkCore.Connections.UnitTests.csproj", "{EA20C376-B821-40A3-A860-061CAE39CB1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.EntityFrameworkCore.Transactions.UnitTests", "Tests\AndreyTalanin0x00.EntityFrameworkCore.Transactions.UnitTests\AndreyTalanin0x00.EntityFrameworkCore.Transactions.UnitTests.csproj", "{7ECF7415-46B7-41AD-9F81-72989BEA72CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2. Class Library Tests", "3.2. Class Library Tests", "{A066F6A5-60F7-4F32-AB3F-55C52F6ED889}"
 EndProject
@@ -35,19 +39,29 @@ Global
 		{6370AA95-4E1E-46E5-8DA0-BF0587066106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6370AA95-4E1E-46E5-8DA0-BF0587066106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6370AA95-4E1E-46E5-8DA0-BF0587066106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C63F8A-3823-4F33-A017-5249F8897FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C63F8A-3823-4F33-A017-5249F8897FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C63F8A-3823-4F33-A017-5249F8897FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C63F8A-3823-4F33-A017-5249F8897FE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EA20C376-B821-40A3-A860-061CAE39CB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA20C376-B821-40A3-A860-061CAE39CB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA20C376-B821-40A3-A860-061CAE39CB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA20C376-B821-40A3-A860-061CAE39CB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECF7415-46B7-41AD-9F81-72989BEA72CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECF7415-46B7-41AD-9F81-72989BEA72CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECF7415-46B7-41AD-9F81-72989BEA72CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECF7415-46B7-41AD-9F81-72989BEA72CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6370AA95-4E1E-46E5-8DA0-BF0587066106} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{37C63F8A-3823-4F33-A017-5249F8897FE8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{CE4F1B7E-A564-4A77-AB44-4AB213D65F79} = {0DBB2888-5EDF-443C-B614-3DDD4912817F}
 		{EA20C376-B821-40A3-A860-061CAE39CB1A} = {CE4F1B7E-A564-4A77-AB44-4AB213D65F79}
 		{A066F6A5-60F7-4F32-AB3F-55C52F6ED889} = {0DBB2888-5EDF-443C-B614-3DDD4912817F}
+		{7ECF7415-46B7-41AD-9F81-72989BEA72CB} = {CE4F1B7E-A564-4A77-AB44-4AB213D65F79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85397B89-1E0A-4A80-850A-C220EB467BF3}
